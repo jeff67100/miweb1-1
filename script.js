@@ -3,6 +3,7 @@ document.querySelector("button.button-menu-toggle")
 
 document.addEventListener("click", function() {
 document.querySelector(".nav-links").classList.toggle("nav-links-responsive")})
+
 const form = document.getElementById('myForm');
 form.addEventListener('submit', function(event) {
   event.preventDefault();
